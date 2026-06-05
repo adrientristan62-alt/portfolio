@@ -1,0 +1,463 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Mon Portfolio</title>
+
+  
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Syne:wght@700;800&family=Outfit:wght@300;400;500;600&display=swap"
+    rel="stylesheet"
+  />
+
+  <link
+    href="https://cdn.jsdelivr.net/npm/remixicon@4.2.0/fonts/remixicon.css"
+    rel="stylesheet"
+  />
+
+  
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+
+  
+  <nav id="navbar">
+    <div class="nav-logo">
+      
+      <span>AT</span>
+    </div>
+
+    <ul class="nav-links">
+      <li><a href="#accueil">Accueil</a></li>
+      <li><a href="#apropos">À propos</a></li>
+      <li><a href="#competences">Compétences</a></li>
+      <li><a href="#projets">Projets</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+
+    
+    <div class="nav-indicator"></div>
+  </nav>
+
+
+
+  <section id="accueil" class="section-hero">
+
+    <!-- Cercles décoratifs animés en arrière-plan -->
+    <div class="bg-circle circle-1"></div>
+    <div class="bg-circle circle-2"></div>
+
+    <div class="hero-content">
+      <!-- Badge "étudiant" -->
+      <span class="badge">🎓 Étudiant en 1ère année – Génie Informatique a IUT de DOUALA</span>
+
+      
+      <h1 class="hero-title">
+        Bonjour, je suis<br />
+        <span class="highlight">MBAKOB ADRIEL TRISTAN</span>
+      </h1>
+
+      
+      <p class="hero-subtitle">
+        Passionné par l'informatique, le développement web et les nouvelles
+        technologies. Toujours en train d'apprendre quelque chose de nouveau !
+      </p>
+
+      <!-- Boutons d'action -->
+      <div class="hero-btns">
+        <a href="#projets" class="btn btn-primary">Voir mes projets</a>
+        <a href="#contact" class="btn btn-outline">Me contacter</a>
+      </div>
+    </div>
+
+    <!-- Photo de profil (placeholder) -->
+    <div class="hero-avatar">
+      <!-- 🔧 Remplace "src" par le chemin de ta vraie photo -->
+      <img
+        src="moi.jpeg"
+        alt="Photo de profil"
+      />
+    </div>
+
+  </section>
+
+
+  
+  <section id="apropos" class="section fade-in-section">
+
+    <div class="section-header">
+      <span class="section-tag">Qui suis-je ?</span>
+      <h2 class="section-title">À Propos de Moi</h2>
+    </div>
+
+    <div class="apropos-grid">
+
+      <!-- Carte : texte de présentation -->
+      <div class="card apropos-text">
+        <!-- 🔧 Remplace par ta vraie présentation -->
+        <p>
+          Je m'appelle <strong>MBAKOB ADRIEL</strong>, étudiant en première année de
+          <strong>Génie Informatique</strong> à l'IUT de Douala. Ma passion pour
+          l'informatique m'a amené à explorer le développement web, les
+          algorithmes et la modélisation des systèmes.
+        </p>
+        
+        <!-- 🔧 Mets à jour tes infos personnelles -->
+        <ul class="info-list">
+          <li><i class="ri-map-pin-line"></i> Douala, Cameroun</li>
+          <li><i class="ri-mail-line"></i> adrientristan62@gmail.com</li>
+          <li><i class="ri-school-line"></i> IUT de Douala</li>
+          <li><i class="ri-calendar-line"></i> Promo 2025 – 2026</li>
+        </ul>
+      </div>
+
+      <!-- Carte : chiffres rapides -->
+      <div class="stats-grid">
+        <div class="stat-card">
+          <span class="stat-number">1ère</span>
+          <span class="stat-label">Année d'études</span>
+        </div>
+        <div class="stat-card">
+          <!-- 🔧 Mets le nombre de tes projets -->
+          <span class="stat-number">2+</span>
+          <span class="stat-label">Projets réalisés</span>
+        </div>
+        <div class="stat-card">
+          <!-- 🔧 Mets le nombre de langages que tu connais -->
+          <span class="stat-number">2+</span>
+          <span class="stat-label">Langages appris</span>
+        </div>
+        <div class="stat-card">
+          <span class="stat-number">∞</span>
+          <span class="stat-label">Curiosité</span>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+
+  <section id="competences" class="section section-alt fade-in-section">
+
+    <div class="section-header">
+      <span class="section-tag">Ce que je sais faire</span>
+      <h2 class="section-title">Mes Compétences</h2>
+    </div>
+
+    <div class="skills-wrapper">
+
+      <!-- Groupe : Développement Web -->
+      <div class="skill-group">
+        <h3 class="skill-group-title">
+          <i class="ri-code-s-slash-line"></i> Développement Web
+        </h3>
+        <div class="skills-list">
+          
+          <div class="skill-item">
+            <div class="skill-info">
+              <span>HTML / CSS</span><span>85%</span>
+            </div>
+            <div class="skill-bar"><div class="skill-fill" style="--w: 85%"></div></div>
+          </div>
+          <div class="skill-item">
+            <div class="skill-info">
+              <span>JavaScript</span><span>75%</span>
+            </div>
+            <div class="skill-bar"><div class="skill-fill" style="--w: 75%"></div></div>
+          </div>
+          <div class="skill-item">
+            <div class="skill-info">
+              <span>PHP / MySQL</span><span>50%</span>
+            </div>
+            <div class="skill-bar"><div class="skill-fill" style="--w: 50%"></div></div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Groupe : Programmation -->
+      <div class="skill-group">
+        <h3 class="skill-group-title">
+          <i class="ri-terminal-box-line"></i> Programmation
+        </h3>
+        <div class="skills-list">
+          <div class="skill-item">
+            <div class="skill-info">
+              <span>Python</span><span>50%</span>
+            </div>
+            <div class="skill-bar"><div class="skill-fill" style="--w: 50%"></div></div>
+          </div>
+          <div class="skill-item">
+            <div class="skill-info">
+              <span>C / Algorithmique</span><span>75%</span>
+            </div>
+            <div class="skill-bar"><div class="skill-fill" style="--w: 75%"></div></div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Groupe : Outils & Méthodes -->
+      <div class="skill-group">
+        <h3 class="skill-group-title">
+          <i class="ri-tools-line"></i> Outils & Méthodes
+        </h3>
+        <div class="tags-list">
+          <!-- 🔧 Ajoute ou supprime des tags selon tes outils -->
+          <span class="tag">Git</span>
+          <span class="tag">VS Code</span>
+          <span class="tag">MERISE</span>
+          <span class="tag">UML</span>
+          <span class="tag">Linux</span>
+          <span class="tag">Figma</span>
+          <span class="tag">MySQL</span>
+          <span class="tag">Google Colab</span>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+
+  <section id="projets" class="section fade-in-section">
+
+    <div class="section-header">
+      <span class="section-tag">Ce que j'ai construit</span>
+      <h2 class="section-title">Mes Projets</h2>
+    </div>
+
+    <div class="projects-grid">
+
+      <!-- ── Carte projet 1 ── -->
+    
+      <div class="project-card">
+        <div class="project-icon"><i class="ri-shopping-bag-line"></i></div>
+        <div class="project-content">
+          <span class="project-tag">UI/UX Design</span>
+          <h3>Site E-commerce Mobilier</h3>
+          <p>
+            Design responsive d'un site de vente de meubles en bois :
+            wireframes, personas, parcours utilisateur et maquettes.
+          </p>
+          <div class="project-tech">
+            <span>HTML</span><span>CSS</span><span>Figma</span>
+          </div>
+        </div>
+        
+        <a href="#" class="project-link" aria-label="Voir le projet">
+          <i class="ri-arrow-right-up-line"></i>
+        </a>
+      </div>
+
+      <!-- ── Carte projet 2 ── -->
+      <div class="project-card">
+        <div class="project-icon"><i class="ri-bar-chart-box-line"></i></div>
+        <div class="project-content">
+          <span class="project-tag">Creation de site</span>
+          <h3>Elaboration du site de IUT</h3>
+          <p>
+            
+
+
+
+          </p>
+          <div class="project-tech">
+            <span>HTML</span><span>CSS</span>
+          </div>
+        </div>
+        <a href="#" class="project-link" aria-label="Voir le projet">
+          <i class="ri-arrow-right-up-line"></i>
+        </a>
+      </div>
+
+      <!-- ── Carte projet 3 ── -->
+      <div class="project-card">
+        <div class="project-icon"><i class="ri-database-2-line"></i></div>
+        <div class="project-content">
+          <span class="project-tag">Base de données</span>
+          <h3>Système de Gestion Payflow</h3>
+          <p>
+            Application de gestion des paiements en PHP/MySQL avec
+            authentification, tableau de bord et historique.
+          </p>
+          <div class="project-tech">
+            <span>PHP</span><span>MySQL</span><span>HTML/CSS</span>
+          </div>
+        </div>
+        <a href="#" class="project-link" aria-label="Voir le projet">
+          <i class="ri-arrow-right-up-line"></i>
+        </a>
+      </div>
+
+
+    </div>
+  </section>
+
+
+  <section id="contact" class="section section-alt fade-in-section">
+
+    <div class="section-header">
+      <span class="section-tag">Travaillons ensemble</span>
+      <h2 class="section-title">Me Contacter</h2>
+    </div>
+
+    <div class="contact-wrapper">
+
+      <!-- Infos de contact -->
+      <div class="contact-info">
+        <p class="contact-intro">
+          Tu veux collaborer sur un projet, poser une question ou juste dire
+          bonjour ? N'hésite pas à me contacter !
+        </p>
+
+        <ul class="contact-links">
+          <!-- 🔧 Remplace par tes vraies coordonnées -->
+          <li>
+            <a href="mailto:adrientristan62@gmail.com" class="contact-item">
+              <i class="ri-mail-send-line"></i>
+              <span>adrientristan62@gmail.com</span>
+            </a>
+          </li>
+          <li>
+            <a href="https://github.com/tonpseudo" target="_blank" class="contact-item">
+              <i class="ri-github-line"></i>
+              <span>github.com</span>
+            </a>
+          </li>
+          <li>
+            <a href="https://linkedin.com/in/tonprofil" target="_blank" class="contact-item">
+              <i class="ri-linkedin-box-line"></i>
+              <span>linkedin.com</span>
+            </a>
+          </li>
+        </ul>
+      </div>
+
+      
+      <div class="contact-form-wrapper">
+        
+        <div class="contact-form">
+
+          <div class="form-group">
+            <label for="name">Ton prénom</label>
+            <input type="text" id="name" placeholder="Ex : Jean-Paul" />
+          </div>
+
+          <div class="form-group">
+            <label for="email">Ton e-mail</label>
+            <input type="email" id="email" placeholder="jean@example.com" />
+          </div>
+
+          <div class="form-group">
+            <label for="message">Ton message</label>
+            <textarea id="message" rows="4" placeholder="Bonjour Adrien, ..."></textarea>
+          </div>
+
+          <button type="button" class="btn btn-primary btn-full" onclick="handleSend()">
+            Envoyer <i class="ri-send-plane-line"></i>
+          </button>
+
+          <p class="form-note" id="form-note"></p>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+
+  <footer id="footer">
+    <p>
+      <!-- 🔧 Remplace par ton nom -->
+      Realise par <strong>MBAKOB TRISTAN</strong> · Étudiant GI, IUT de Douala
+    </p>
+    <p class="footer-sub">© 2025 – Portfolio personnel</p>
+  </footer>
+
+
+  <script>
+    
+    const sections  = document.querySelectorAll("section[id]");
+    const navLinks  = document.querySelectorAll(".nav-links a");
+
+    function activateNavLink() {
+      let current = "";
+      sections.forEach(sec => {
+        if (window.scrollY >= sec.offsetTop - 120) current = sec.id;
+      });
+      navLinks.forEach(link => {
+        link.classList.toggle("active", link.getAttribute("href") === `#${current}`);
+      });
+    }
+    window.addEventListener("scroll", activateNavLink);
+    activateNavLink(); // appel initial
+
+
+   
+    const navbar = document.getElementById("navbar");
+    window.addEventListener("scroll", () => {
+      navbar.classList.toggle("scrolled", window.scrollY > 50);
+    });
+
+
+    
+    const observer = new IntersectionObserver(
+      entries => {
+        entries.forEach(entry => {
+          if (entry.isIntersecting) {
+            entry.target.classList.add("visible");
+          }
+        });
+      },
+      { threshold: 0.1 }
+    );
+
+    document.querySelectorAll(".fade-in-section").forEach(el => observer.observe(el));
+
+
+    
+    const skillObserver = new IntersectionObserver(
+      entries => {
+        entries.forEach(entry => {
+          if (entry.isIntersecting) {
+            entry.target.querySelectorAll(".skill-fill").forEach(fill => {
+              fill.style.width = fill.style.getPropertyValue("--w");
+            });
+          }
+        });
+      },
+      { threshold: 0.3 }
+    );
+    document.querySelectorAll(".skills-list").forEach(el => skillObserver.observe(el));
+
+
+    function handleSend() {
+      const name    = document.getElementById("name").value.trim();
+      const email   = document.getElementById("email").value.trim();
+      const message = document.getElementById("message").value.trim();
+      const note    = document.getElementById("form-note");
+
+      if (!name || !email || !message) {
+        note.textContent = "⚠️ Merci de remplir tous les champs.";
+        note.style.color = "#e74c3c";
+        return;
+      }
+
+      note.textContent = `✅ Merci ${name} ! Je te répondrai bientôt.`;
+      note.style.color = "#27ae60";
+    }
+
+
+ 
+    document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+      anchor.addEventListener("click", function (e) {
+        e.preventDefault();
+        const target = document.querySelector(this.getAttribute("href"));
+        if (target) target.scrollIntoView({ behavior: "smooth" });
+      });
+    });
+  </script>
+
+</body>
+</html>
